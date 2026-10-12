@@ -1,0 +1,5 @@
+/factory/jobs/
+/factory/.backlog.lock
+__pycache__/
+*.pyc
+.DS_Store

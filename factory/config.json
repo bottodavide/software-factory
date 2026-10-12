@@ -1,0 +1,16 @@
+{
+  "main_branch": "main",
+  "worktree_root": "../{repo}-factory",
+  "max_rework_rounds": 2,
+  "dev_host": "127.0.0.1",
+  "reviewers": ["security", "code", "experience"],
+  "gates": {
+    "commands": [],
+    "timeout_seconds": 900,
+    "sast_config": "p/default"
+  },
+  "risk": {
+    "max_changed_files": 20,
+    "max_changed_lines": 500
+  }
+}
